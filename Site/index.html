@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<link rel="stylesheet" type="text/css" href="">
+<meta charset="UTF-8">
+<title>Formulário</title>
+</head>
+<body>
+<h1>Cadastro</h1>
+	<form id="cadastro" name="cadastro" method="get" action="cadastro_get.php">
+		<p>Campos com * são de preenchimento obrigatório!</p>
+		<table>
+			<tr>
+				<td>Nome:</td>
+				<td><input type="text" required name="nome" id="nome"></td>
+			</tr>
+			<tr>
+				<td>Telefone:</td>
+				<td><input type="text" required name="telefone" id="telefone"></td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="text" required name="email" id="email"></td>
+			</tr>
+				<tr>
+				<td>Cidade:</td>
+				<td><input type="text" required name="cidade" id="cidade"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" id="cadastrar" value="Enviar"></td>
+				<td><input type="reset" id="limpar" value="Limpar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
